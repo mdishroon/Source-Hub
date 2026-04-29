@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import os
 
-# collapse the sidebar by default
-st.set_page_config(initial_sidebar_state="collapsed")
-
+# set browser tab title, favicon, and collapse the sidebar by default
+st.set_page_config(
+    page_title="SourceHub",
+    page_icon="favicon.png",
+    initial_sidebar_state="collapsed"
+)
 # name of save file
 FILE_NAME = "sources.csv"
 

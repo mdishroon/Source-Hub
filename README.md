@@ -2,8 +2,6 @@
 
 SourceHub is a minimalist Python application built to organize and manage educational resources. Much like assigning a static IP to a critical piece of hardware so you always know its exact address, this tool acts as a permanent, anchored database for your coursework. It provides a clean interface to reliably store, categorize, and route your study materials by class and topic, ensuring your most important links are always exactly where you left them.
 
-</div>
-
 ## About the Files
 
 * **streamHub.py**: This is the main application code. It creates the website interface, builds the hidden sidebar navigation, handles secure logins, and manages all the sorting and saving.

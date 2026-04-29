@@ -22,10 +22,10 @@ This application uses Streamlit Secrets to manage logins securely. Before runnin
    
 4. Ensure you have a .gitignore file in your main project folder containing these exact lines so your data and passwords stay private:
 
-```plaintext
-.streamlit/secrets.toml
-sources.csv
-```
+    ```plaintext
+    .streamlit/secrets.toml
+    sources.csv
+    ```
 
 ## How to Clone and Run the Repository
 If you want to run this application on your own computer, open your computer terminal and follow these steps.
@@ -55,7 +55,6 @@ To keep your workspace clean, the menu is hidden by default.
 
 > [!IMPORTANT]  
 > Click the small ">" arrow in the top left corner of the screen to open the sidebar.
-
 > Use the dropdown menu to select which page you want to view.
 
 3. Add a Source
